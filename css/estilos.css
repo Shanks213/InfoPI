@@ -1,0 +1,71 @@
+.carousel{
+    text-align: center;
+}
+.rt{
+    width: 200px;
+    height: 50px;
+    background-color:darkgray ;
+    color: black;
+    border-radius: 0%;
+    text-align: center;
+}
+.rt a {
+    text-decoration: none;
+    color: black;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+}
+#ft{
+    text-align: center;
+}
+.bt{
+    width: 200px;
+    height: 50px;
+    background-color:darkgray ;
+    color: black;
+    border-radius: 1rem;
+}
+.bt a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: left;
+    border-radius: 50%;
+    width: 200px;
+}
+.logo-nav{
+    width: 45px
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    gap: 4rem;
+}
+.etiqueta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #BC846E;
+    color: white;
+    height: 50px;
+}
+.img-responsive{
+    padding: 1%;
+}
